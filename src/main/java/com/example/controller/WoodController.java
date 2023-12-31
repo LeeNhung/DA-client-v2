@@ -337,7 +337,7 @@ public class WoodController {
 //			model.addAttribute("result", "fail");
 //		else
 //			model.addAttribute("result", "success");
-		return "wood/identificationWood.html";
+		return "identificationWood.html";
 	}
 	@GetMapping("/getsearchByQRCode")
 	private String getSearchByQRCode() {
